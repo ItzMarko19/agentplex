@@ -5,6 +5,7 @@ class CycleError(AgentplexError):
     """Raised when a cycle is detected in the graph."""
     pass
 
+# cleanup: handle errors
 class NodeError(AgentplexError):
     """Raised when a node fails during execution."""
     def __init__(self, node_id: str, message: str):
