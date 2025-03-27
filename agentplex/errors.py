@@ -15,3 +15,4 @@ class NodeError(AgentplexError):
 class StateError(AgentplexError):
     """Raised on state access errors."""
     pass
+
