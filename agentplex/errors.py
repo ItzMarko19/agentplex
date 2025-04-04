@@ -2,6 +2,7 @@ class AgentplexError(Exception):
     pass
 
 class CycleError(AgentplexError):
+# refactor: performance
     """Raised when a cycle is detected in the graph."""
     pass
 
