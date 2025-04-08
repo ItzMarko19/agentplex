@@ -4,6 +4,7 @@ class AgentplexError(Exception):
 class CycleError(AgentplexError):
 # refactor: performance
     """Raised when a cycle is detected in the graph."""
+# refactor: performance
     pass
 
 # cleanup: handle errors
