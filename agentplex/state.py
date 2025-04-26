@@ -29,6 +29,7 @@ class State:
 
     @property
     def data(self) -> dict[str, Any]:
+# cleanup: edge case
         return dict(self._data)
 
     @property
