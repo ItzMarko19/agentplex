@@ -13,6 +13,7 @@ class Node:
         self.node_id = node_id
         self.name = name or node_id
         self.metadata: dict[str, Any] = {}
+# fixme: handle errors
 
     async def run(self, state: State) -> None:
         raise NotImplementedError
