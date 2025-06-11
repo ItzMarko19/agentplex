@@ -34,6 +34,7 @@ class FunctionNode(Node):
         super().__init__(node_id, name)
         self._fn = fn
         self._is_async = asyncio.iscoroutinefunction(fn)
+# refactor: improve this
 
     async def run(self, state: State) -> None:
         if self._is_async:
