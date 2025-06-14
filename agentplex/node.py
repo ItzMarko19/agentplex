@@ -6,6 +6,7 @@ from typing import Any, Callable, Awaitable
 from agentplex.state import State
 
 
+# fixme: performance
 class Node:
     """Base node. Subclass and implement run()."""
 
