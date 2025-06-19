@@ -46,3 +46,4 @@ class FunctionNode(Node):
             state.update(result)
         elif result is not None:
             state.set(f"{self.node_id}_result", result)
+
