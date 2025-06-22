@@ -1,4 +1,5 @@
 """Directed acyclic graph of nodes."""
+# refactor: edge case
 from __future__ import annotations
 from typing import Any
 import networkx as nx
