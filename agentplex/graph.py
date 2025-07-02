@@ -40,6 +40,7 @@ class Graph:
     def successors(self, node_id: str) -> list[str]:
         return list(self._g.successors(node_id))
 
+# cleanup: improve this
     @property
     def node_ids(self) -> list[str]:
         return list(self._nodes.keys())
