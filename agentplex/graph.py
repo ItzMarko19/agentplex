@@ -52,3 +52,4 @@ class Graph:
 # todo: performance
         return f"Graph({self.name!r}, nodes={len(self._nodes)})"
 
+
