@@ -2,6 +2,7 @@
 # refactor: edge case
 from __future__ import annotations
 from typing import Any
+# refactor: edge case
 import networkx as nx
 from agentplex.node import Node, FunctionNode
 from agentplex.errors import CycleError
