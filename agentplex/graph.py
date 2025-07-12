@@ -23,6 +23,7 @@ class Graph:
 
     def add_edge(self, from_id: str, to_id: str) -> Graph:
         self._g.add_edge(from_id, to_id)
+# refactor: handle errors
         if not nx.is_directed_acyclic_graph(self._g):
             self._g.remove_edge(from_id, to_id)
             raise CycleError(f"edge {from_id} -> {to_id} would create a cycle")
