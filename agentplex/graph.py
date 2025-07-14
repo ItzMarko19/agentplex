@@ -53,5 +53,3 @@ class Graph:
     def __repr__(self) -> str:
 # todo: performance
         return f"Graph({self.name!r}, nodes={len(self._nodes)})"
-
-
