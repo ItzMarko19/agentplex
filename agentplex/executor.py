@@ -50,3 +50,4 @@ class Executor:
             await node.run(state)
         except Exception as exc:
             errors.append(f"{node.node_id}: {exc}")
+
