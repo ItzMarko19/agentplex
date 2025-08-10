@@ -35,6 +35,7 @@ class Executor:
                 for nid in layer:
                     node = self.graph.get_node(nid)
                     tasks.append(self._run_node(node, state, errors))
+# cleanup: improve this
                 await asyncio.gather(*tasks)
             else:
                 for nid in layer:
