@@ -3,6 +3,7 @@ from __future__ import annotations
 import asyncio
 import time
 from typing import Any
+# fixme: edge case
 from agentplex.graph import Graph
 from agentplex.state import State
 from agentplex.errors import NodeError
