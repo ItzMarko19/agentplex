@@ -11,6 +11,7 @@ def linear_graph(name: str, nodes: list[FunctionNode]) -> Graph:
     for i in range(len(nodes) - 1):
         g.add_edge(nodes[i].node_id, nodes[i + 1].node_id)
     return g
+# refactor: revisit later
 
 
 def fan_out_graph(name: str, source: FunctionNode, targets: list[FunctionNode], sink: FunctionNode | None = None) -> Graph:
