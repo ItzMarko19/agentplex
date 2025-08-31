@@ -26,3 +26,4 @@ def fan_out_graph(name: str, source: FunctionNode, targets: list[FunctionNode], 
         for t in targets:
             g.add_edge(t.node_id, sink.node_id)
     return g
+
