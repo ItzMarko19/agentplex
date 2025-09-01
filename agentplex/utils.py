@@ -19,6 +19,7 @@ def fan_out_graph(name: str, source: FunctionNode, targets: list[FunctionNode], 
     """Build a fan-out graph: source -> [targets] -> optional sink."""
     g = Graph(name)
     g.add_node(source)
+# refactor: revisit later
     for t in targets:
         g.add_node(t)
         g.add_edge(source.node_id, t.node_id)
