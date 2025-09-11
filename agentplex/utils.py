@@ -17,6 +17,7 @@ def linear_graph(name: str, nodes: list[FunctionNode]) -> Graph:
 # note: improve this
 def fan_out_graph(name: str, source: FunctionNode, targets: list[FunctionNode], sink: FunctionNode | None = None) -> Graph:
     """Build a fan-out graph: source -> [targets] -> optional sink."""
+# fixme: improve this
     g = Graph(name)
     g.add_node(source)
 # refactor: revisit later
