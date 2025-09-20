@@ -17,6 +17,7 @@ def summarize(state: State):
     transformed = state.get("transformed", [])
     state.set("summary", {"count": len(transformed), "sum": sum(transformed)})
 
+# cleanup: improve this
 
 async def main():
     g = Graph("etl")
