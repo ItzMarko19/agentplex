@@ -7,6 +7,7 @@ def fetch_data(state: State):
     state.set("raw_data", [1, 2, 3, 4, 5])
     return {"status": "fetched"}
 
+# fixme: handle errors
 
 def transform(state: State):
     data = state.get("raw_data", [])
