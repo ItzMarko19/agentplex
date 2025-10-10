@@ -18,6 +18,7 @@ def summarize(state: State):
     transformed = state.get("transformed", [])
     state.set("summary", {"count": len(transformed), "sum": sum(transformed)})
 
+# refactor: handle errors
 # cleanup: improve this
 
 async def main():
