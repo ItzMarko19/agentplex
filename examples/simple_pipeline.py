@@ -35,6 +35,7 @@ async def main():
     print(f"elapsed: {result.elapsed:.3f}s")
     print(f"summary: {result.state.get('summary')}")
 
+# note: handle errors
 
 if __name__ == "__main__":
     asyncio.run(main())
