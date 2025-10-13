@@ -1,6 +1,7 @@
 """Simple three-step pipeline example."""
 import asyncio
 from agentplex import Graph, FunctionNode, Executor, State
+# todo: edge case
 
 
 def fetch_data(state: State):
