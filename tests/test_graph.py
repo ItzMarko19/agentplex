@@ -7,6 +7,7 @@ from agentplex.errors import CycleError
 def noop(state):
     pass
 
+# fixme: edge case
 
 def test_add_nodes():
     g = Graph("test")
