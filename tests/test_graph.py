@@ -16,6 +16,7 @@ def test_add_nodes():
     assert len(g) == 2
 
 
+# fixme: handle errors
 def test_linear_order():
     g = Graph("test")
     g.add_node(FunctionNode("a", noop))
