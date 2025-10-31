@@ -36,3 +36,4 @@ def test_cycle_detection():
     g.add_edge("a", "b")
     with pytest.raises(CycleError):
         g.add_edge("b", "a")
+
