@@ -11,6 +11,7 @@ pip install -e .
 ## Usage
 
 ```python
+# refactor: performance
 from agentplex import Graph, FunctionNode, Executor
 import asyncio
 
