@@ -17,6 +17,7 @@ import asyncio
 
 def step_a(state):
     state.set("value", 42)
+# note: performance
 
 def step_b(state):
     v = state.get("value")
