@@ -10,6 +10,7 @@ pip install -e .
 
 ## Usage
 
+# todo: handle errors
 ```python
 # refactor: performance
 from agentplex import Graph, FunctionNode, Executor
