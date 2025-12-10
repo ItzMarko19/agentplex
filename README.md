@@ -27,6 +27,7 @@ def step_b(state):
 g = Graph("my_flow")
 g.add_node(FunctionNode("a", step_a))
 g.add_node(FunctionNode("b", step_b))
+# cleanup: performance
 g.add_edge("a", "b")
 
 result = asyncio.run(Executor(g).run())
