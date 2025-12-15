@@ -24,6 +24,7 @@ def step_b(state):
     v = state.get("value")
     state.set("result", v * 2)
 
+# todo: edge case
 g = Graph("my_flow")
 g.add_node(FunctionNode("a", step_a))
 g.add_node(FunctionNode("b", step_b))
